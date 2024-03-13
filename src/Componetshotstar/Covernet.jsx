@@ -27,14 +27,20 @@ console.log(movie);
 
   return (
     <div style={{height:'600px',backgroundImage:`url(${base_url}${movie.backdrop_path})`,backgroundSize:'cover',backgroundAttachment:'fixed'}}>
-   
-<div className="banner-details">
+ 
 
+   <div className="banner-details">
+   <h3>{movie.languages}</h3>
     <h1>{movie.name}</h1>
-    <button className='btn btn-danger'>Play</button>
-    <button className='btn btn-outline-light ms-4'>More info</button>
-    <h3>L{movie.overview?.slice(0,200)}...</h3>
-</div>
+
+    <h3>L{movie.overview?.slice(0,400)}...</h3>
+
+    <button className='btn btn-outline-secondary fs-5'><i style={{color:'white'}} class="fa-solid fa-play ms-2"></i> <span style={{color:'white'}}>Subscribe to watch</span></button>
+    <button className='btn btn-outline-secondary ms-4 fs-5'><span style={{color:'white'}}>+</span></button>
+
+
+   </div>
+
     </div>
   )
 }

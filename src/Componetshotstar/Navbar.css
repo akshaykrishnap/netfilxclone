@@ -1,0 +1,22 @@
+#navbar{
+    width: 100%;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.logo1{
+    width: 150px;
+    height: 100px;
+   
+}
+.navbaricon{
+    font-size: 25px;
+    font-weight: 200;
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    padding: 10px;
+}
+.navbaricon:hover{
+    scale: 1.15;
+}

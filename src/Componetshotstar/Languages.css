@@ -1,0 +1,64 @@
+#cardbody{
+    justify-content: space-around;
+}
+
+.imgbody2{
+    width: 220px;
+    height: 140px;
+    padding: 10px;
+    background-image:linear-gradient(to right,rgb(255, 118, 45),rgb(235, 171, 32));
+    justify-content: center;
+    text-align: center;
+}
+
+.imgbody2:hover{
+ scale: 1.15;
+}
+.imgbody3{
+    width: 220px;
+    height: 140px;
+    padding: 10px;
+    background-image:linear-gradient(to right,rgb(255, 45, 237),rgb(244, 131, 250));
+    justify-content: center;
+    text-align: center;
+}
+.imgbody4{
+    width: 220px;
+    height: 140px;
+    padding: 10px;
+    background-image:linear-gradient(to right,rgb(254, 62, 62),rgb(255, 152, 134));
+    justify-content: center;
+    text-align: center;
+}
+.imgbody5{
+    width: 220px;
+    height: 140px;
+    padding: 10px;
+    background-image:linear-gradient(to right,rgb(66, 45, 255),rgb(110, 106, 224));
+    justify-content: center;
+    text-align: center;
+}
+.imgbody6{
+    width: 220px;
+    height: 140px;
+    padding: 10px;
+    background-image:linear-gradient(to right,rgb(45, 255, 45),rgb(122, 252, 148));
+    justify-content: center;
+    text-align: center;
+}
+.imgbody3:hover{
+    scale: 1.15;
+   }
+   .imgbody4:hover{
+    scale: 1.15;
+   }
+   .imgbody5:hover{
+    scale: 1.15;
+   }
+   .imgbody6:hover{
+    scale: 1.15;
+   }
+   .lang{
+    width: 100px;
+    height: 90px;
+   }
